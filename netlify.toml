@@ -1,6 +1,10 @@
-// netlify.toml
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
 
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  from = "/:path"
+  to = "/index.html"
+  status = 200
+  conditions = {path = "^/(?!api).*$"}
