@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  padding-block: 8px;
+  font-size: 14px;
+  width: 350px;
+}
+.active:focus {
+  border-color: #d55200;
+}
+.active:hover {
+  border-color: #d55200;
+}
+.btn {
+  background-color: #d55200;
+  color: white;
+  width: fit-content;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+.btn:hover {
+  background-color: #d55200 !important;
+  border-color: white !important;
+  color: white !important;
+  opacity: 0.8;
+}
+.btn:active {
+  background-color: #762e02 !important;
+}
+
+.custom-button {
+  transition: none; /* Animatsiyalarni olib tashlash uchun */
+}
+
+.custom-button:hover,
+.custom-button:active,
+.custom-button:focus {
+  color: white !important;
+  background-color: inherit !important; /* Hover rangni olib tashlaydi */
+  box-shadow: none !important; /* Shadow olib tashlanadi */
+  border-color: inherit !important; /* Chegarani o'zgartirmaydi */
+}

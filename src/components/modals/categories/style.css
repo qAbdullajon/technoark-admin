@@ -1,0 +1,17 @@
+.active:focus {
+  border-color: #d55200;
+}
+.btn {
+  background-color: #d55200;
+  color: white;
+  width: 100%;
+}
+.btn:hover {
+  background-color: #d55200 !important;
+  border-color: white !important;
+  color: white !important;
+  opacity: 0.8;
+}
+.btn:active {
+  background-color: #762e02 !important;
+}
