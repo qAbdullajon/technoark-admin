@@ -1,10 +1,4 @@
 [[redirects]]
-  from = "/"
+  from = "/*"
   to = "/index.html"
   status = 200
-
-[[redirects]]
-  from = "/:path"
-  to = "/index.html"
-  status = 200
-  conditions = {path = "^/(?!api).*$"}
